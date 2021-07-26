@@ -1,0 +1,44 @@
+/* Fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;800;900&display=swap');
+
+/* Global Style */
+
+@import url("./globalStyle.css");
+
+/* Custome Style */
+
+@import url(./header/index.css);
+@import url(./footer/index.css);
+@import url(./main/home/index.css);
+
+/* Reponsive */
+
+@import url(./header/query.css);
+@import url(./footer/query.css);
+@import url(./main/home/query.css);
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    max-height: 100%;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-tap-highlight-color: transparent;
+}
+
+body {
+    font-family: var(--font-family-one);
+    font-size: 20px;
+    font-weight: var(--font-weight-one-regular);
+    line-height: 1.5;
+    word-wrap: break-word;
+    word-break: break-word;
+    color: var(--color-font-one);
+    background-color: var(--color-body);
+}

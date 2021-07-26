@@ -1,0 +1,82 @@
+@media only screen and (max-width: 1024px) {
+    .global__label {
+        position: relative;
+        align-items: center;
+        flex-basis: 100%;
+        flex-direction: column;
+        margin-bottom: 20px;
+        transform: translate(0) rotate(0);
+        text-align: center;
+        letter-spacing: 3px;
+    }
+    .global__label svg {
+        display: inline-block;
+    }
+    .latest-post__item--highlight .item__content {
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+    .latest-post__item--highlight .item__content .item__title {
+        font-size: 40px;
+    }
+    .latest-post__item--highlight .item__content .item__excerpt {
+        display: none;
+    }
+    .latest-post__item--highlight .item__container .item__image,
+    .latest-post__item--highlight .item__container .item__image img {
+        min-height: 450px;
+    }
+    .latest-post .item {
+        max-height: 476px;
+    }
+    .latest-post .item__image {
+        height: 50%;
+    }
+    .latest-post .item .item__content {
+        height: 40%;
+    }
+    .latest-post .item .item__title {
+        margin-top: 15px;
+    }
+    .latest-post .item .item__container .item__image img {
+        height: 230px;
+    }
+    .latest-post .item .item__title {
+        font-size: 20px;
+    }
+    .latest-post .item .item__meta {
+        font-size: 14px;
+    }
+    .subscribe__wrap {
+        flex-direction: column;
+    }
+    .subscribe__wrap form {
+        margin: 0 auto;
+    }
+    .subscribe__wrap form input:focus {
+        width: 230px;
+        ;
+    }
+}
+
+@media only screen and (min-width: 740px) and (max-width: 1024px) {
+    .featured .item:nth-child(6) {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 740px) {
+    .latest-post__item--highlight .item__container {
+        flex-direction: column;
+    }
+    .latest-post__item--highlight .item__container .item__image {
+        margin-right: 0;
+    }
+    .featured .item {
+        max-width: 100%;
+        margin-bottom: 20px;
+    }
+    .latest-post .item {
+        flex: 1 0 90%;
+    }
+}

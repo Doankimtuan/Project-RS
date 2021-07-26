@@ -1,0 +1,111 @@
+header {
+    max-width: 100%;
+    margin: 0 var(--margin);
+    font-weight: 900;
+    line-height: 1.5;
+}
+
+header ul {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.header__logo {
+    position: absolute;
+    z-index: 98;
+    left: 50%;
+    display: inline-block;
+    flex: 1 0 auto;
+    box-sizing: border-box;
+    text-align: center;
+    word-break: normal;
+    max-height: var(--height-logo-header);
+}
+
+.header__logo img {
+    max-width: 300px;
+    max-height: var(--height-logo-header);
+}
+
+.d-flex ul {
+    margin-bottom: 0;
+}
+
+.d-flex ul li {
+    margin: 0 15px;
+}
+
+.nav-item,
+.nav-item a,
+.d-flex a {
+    font-size: 19px;
+    display: inline-block;
+    pointer-events: auto;
+}
+
+.nav-item a {
+    position: relative;
+    margin: 0 30px 0 0;
+    padding: 0;
+}
+
+.dropdown {
+    align-self: center;
+}
+
+.dropdown svg {
+    width: 30px;
+    margin: 0 0 3px;
+    cursor: pointer;
+    fill: var(--color-font-one);
+    margin-left: 15px;
+}
+
+.header__search {
+    line-height: 0;
+}
+
+.header__search span {
+    font-size: 15px;
+    display: none;
+    margin-right: 8px;
+    color: var(--color-white);
+}
+
+.header__search svg {
+    width: 18px;
+    cursor: pointer;
+    fill: var(--color-font-one);
+}
+
+.header__nav .signin {
+    margin-left: 30px;
+}
+
+.header__nav .signup a {
+    margin-right: 0;
+    padding: 12px 22px;
+}
+
+ul li a {
+    position: relative;
+}
+
+header ul li a:not(.global__button):hover::before,
+header ul li a:not(.is-active):hover::before {
+    position: absolute;
+    top: 0;
+    right: -7px;
+    width: 7px;
+    height: 7px;
+    content: '';
+    transition: background-color .3s ease;
+    border-radius: 100%;
+    background-color: var(--color-three);
+}
+
+.navbar-light .navbar-toggler,
+.navbar-light .navbar-toggler:checked {
+    border: none;
+}

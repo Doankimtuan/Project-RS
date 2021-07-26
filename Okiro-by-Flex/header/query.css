@@ -1,0 +1,26 @@
+@media only screen and (max-width: 1024px) {
+    .header__wrap {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    .header__logo,
+    .header__nav {
+        flex-basis: 50%;
+    }
+    .header__nav {
+        text-align: right;
+    }
+    .header__logo {
+        position: initial;
+        text-align: left;
+    }
+    .header__logo a {
+        left: 0;
+    }
+    .header__toggle {
+        display: inline-block;
+    }
+    .header__nav nav {
+        display: none;
+    }
+}

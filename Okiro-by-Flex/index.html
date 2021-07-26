@@ -1,0 +1,461 @@
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Okiro</title>
+    <link rel="stylesheet" href="./index.css">
+    <script src="https://kit.fontawesome.com/1fa75c7674.js" crossorigin="anonymous"></script>
+</head>
+
+
+<body>
+    <div class="global__content">
+        <!-- ------------------------------------------------- START HEADER -------------------------------- -->
+        <header class="header__section">
+            <div class="header__wrap">
+                <div class="header__logo">
+                    <a href="#"><img src="https://okiro.fueko.net/content/images/2020/11/okiro.svg" alt="Okiro"></a>
+                </div>
+                <div class="header__nav">
+                    <div class="header__toggle">
+                        <i class="fas fa-bars "></i>
+                    </div>
+
+                    <nav>
+                        <ul>
+                            <li><a id="home" class="is-active">Home</a></li>
+                            <li><a id="membership">Membership</a></li>
+                            <li><a id="style-guide">Style Guide</a></li>
+                            <li id="header--dropdown" onClick="openDropdown()">
+                                <svg role="img" viewBox="0 0 20 4" xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M2 4A2 2 0 102.001.001 2 2 0 002 4zm8 0a2 2 0 10.001-3.999A2 2 0 0010 4zm8 0a2 2 0 10.001-3.999A2 2 0 0018 4z">
+                                    </path>
+                                </svg>
+                                <ul>
+                                    <li><a id="feature">Features</a></li>
+                                    <li><a id="author">Authors</a></li>
+                                    <li><a id="tag">Tags</a></li>
+                                    <li><a id="subscribe">Subscribe</a></li>
+                                    <li><a id="contact">Contact</a></li>
+                                    <li><a id="get-theme">Get Theme</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <ul>
+                            <li class="signin" style="order: 2"><a id="signin">Sign in</a></li>
+                            <li class="signup" style="order: 3"><a id="signup" class="global__button">Sign up</a></li>
+                            <li id="search-open" class="header__search" style="order: 1">
+                                <span>Search</span>
+                                <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M16.281 19.26c-1.675 1.022-3.855 1.695-5.784 1.693C4.7 20.952 0 16.261 0 10.476S4.7 0 10.497 0s10.497 4.69 10.497 10.476c0 2-.633 4.034-1.618 5.644l3.902 3.893c.465.465.743 1.1.721 1.753-.04 1.121-.78 2-2.034 2.105-.663.056-1.313-.25-1.782-.717l-3.902-3.894zm-5.748-2.54c3.426-.02 6.238-2.841 6.238-6.265 0-3.435-2.834-6.264-6.275-6.264-3.443 0-6.278 2.829-6.278 6.264s2.835 6.262 6.278 6.262l.037.002z">
+                                    </path>
+                                </svg>
+                            </li>
+
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </header>
+
+        <!-- -----------------------X------------------------- END HEADER -----------------X-------------- -->
+
+        <!-- ------------------------------------------------- STSRT MAIN -------------------------------- -->
+
+        <main class="global__main">
+            <section class="featured global__sections section-5-items">
+                <h2 class="global__label">
+                    Featured
+                    <svg role="img" viewBox="0 0 136 24" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M1.525 1.525a3.5 3.5 0 014.95 0L20 15.05 33.525 1.525a3.5 3.5 0 014.95 0L52 15.05 65.525 1.525a3.5 3.5 0 014.95 0L84 15.05 97.525 1.525a3.5 3.5 0 014.95 0L116 15.05l13.525-13.525a3.5 3.5 0 014.95 4.95l-16 16a3.5 3.5 0 01-4.95 0L100 8.95 86.475 22.475a3.5 3.5 0 01-4.95 0L68 8.95 54.475 22.475a3.5 3.5 0 01-4.95 0L36 8.95 22.475 22.475a3.5 3.5 0 01-4.95 0l-16-16a3.5 3.5 0 010-4.95z">
+                        </path>
+                    </svg>
+                </h2>
+                <article class="item background--pool">
+                    <a href="#" class="global__link"></a>
+                    <div class="global__image item__image">
+                        <img src="https://okiro.fueko.net/content/images/size/w600/2020/11/photo-1557800636-894a64c1696f.jpeg" loading="lazy" alt="Don’t be afraid">
+                    </div>
+                    <div class="global__sections--content">
+                        <h3><a href="/dont-be-afraid/">Don’t be afraid</a></h3>
+                        <div class="global__sections--meta global--pointer hover--underline">
+                            <a href="/author/megan/">Megan Anderson</a>, <a href="/author/lauren/">Lauren
+                                Langford</a>
+                        </div>
+                    </div>
+                </article>
+                <article class="item background--rose">
+                    <a href="#" class="global__link"></a>
+                    <div class="global__image item__image">
+                        <img src="https://okiro.fueko.net/content/images/size/w600/2020/11/photo-1582020738577-2e7a48043902.jpeg" loading="lazy" alt="You have to fight to reach your dream">
+                    </div>
+                    <div class="global__sections--content">
+                        <h3><a href="/you-have-to-fight-to-reach-your-dream/">You have to fight to reach your
+                                dream</a></h3>
+                        <div class="global__sections--meta global--pointer hover--underline">
+                            <a href="/author/megan/">Megan Anderson</a>
+                        </div>
+                    </div>
+                </article>
+                <article class="item background--sand">
+                    <a href="#" class="global__link"></a>
+                    <div class="global__image item__image">
+                        <img src="https://okiro.fueko.net/content/images/size/w300/2020/11/photo-1530653333484-d02d0faff9bf.jpeg" loading="lazy" alt="I always loved aesthetics">
+                    </div>
+                    <div class="global__sections--content">
+                        <h3><a href="/i-always-loved-aesthetics/">I always loved aesthetics</a></h3>
+                        <div class="global__sections--meta global--pointer hover--underline">
+                            <a href="/author/hannah/">Hannah Weastell</a>, <a href="/author/victoria/">Victoria
+                                West</a>
+                        </div>
+                    </div>
+                </article>
+                <article class="item background--aqua">
+                    <a href="#" class="global__link"></a>
+                    <div class="global__image item__image">
+                        <img src="https://okiro.fueko.net/content/images/size/w300/2020/11/photo-1590374504314-295374f053e4.jpeg" loading="lazy" alt="Creating deluxe drink is like playing a sport">
+                    </div>
+                    <div class="global__sections--content">
+                        <h3><a href="/creating-deluxe-drink-is-like-playing-a-sport/">Creating deluxe drink is like
+                                playing a
+                                sport</a></h3>
+                        <div class="global__sections--meta global--pointer hover--underline">
+                            <a href="/author/victoria/">Victoria West</a>
+                        </div>
+                    </div>
+                </article>
+                <article class="item background--peach">
+                    <a href="#" class="global__link"></a>
+                    <div class="global__image item__image">
+                        <img src="https://okiro.fueko.net/content/images/size/w300/2020/11/photo-1560393464-5c69a73c5770.jpeg" loading="lazy" alt="You must grow like a tree">
+                    </div>
+                    <div class="global__sections--content">
+                        <h3><a href="/you-must-grow-like-a-tree/">You must grow like a tree</a></h3>
+                        <div class="global__sections--meta global--pointer hover--underline">
+                            <a href="/author/patricia/">Patricia Jenkins</a>, <a href="/author/charles/">Charles
+                                Barrett</a>
+                        </div>
+                    </div>
+                </article>
+            </section>
+
+            <section class="latest-post">
+                <div class="latest-post__wrap">
+                    <article class="latest-post__item--highlight">
+                        <small class="global__label">
+                            Latest posts
+                            <svg role="img" viewBox="0 0 136 24" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M1.525 1.525a3.5 3.5 0 014.95 0L20 15.05 33.525 1.525a3.5 3.5 0 014.95 0L52 15.05 65.525 1.525a3.5 3.5 0 014.95 0L84 15.05 97.525 1.525a3.5 3.5 0 014.95 0L116 15.05l13.525-13.525a3.5 3.5 0 014.95 4.95l-16 16a3.5 3.5 0 01-4.95 0L100 8.95 86.475 22.475a3.5 3.5 0 01-4.95 0L68 8.95 54.475 22.475a3.5 3.5 0 01-4.95 0L36 8.95 22.475 22.475a3.5 3.5 0 01-4.95 0l-16-16a3.5 3.5 0 010-4.95z">
+                                </path>
+                            </svg>
+                        </small>
+                        <div class="item__container">
+                            <div class="global__image item__image">
+                                <img src="https://okiro.fueko.net/content/images/size/w1200/2020/11/photo-1560141343-966cb5212777.jpeg" loading="lazy" alt="I work best when my space is filled with inspiration">
+                            </div>
+                            <div class="item__content">
+                                <div class="item__tags global__tags">
+                                    <a href="#">Creative</a>
+                                </div>
+                                <h2 class="item__title"><a href="#">I work best when my space is filled with
+                                        inspiration </a>
+                                </h2>
+                                <p class="item__excerpt">
+                                    <svg role="img" viewBox="0 0 136 24" xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M1.525 1.525a3.5 3.5 0 014.95 0L20 15.05 33.525 1.525a3.5 3.5 0 014.95 0L52 15.05 65.525 1.525a3.5 3.5 0 014.95 0L84 15.05 97.525 1.525a3.5 3.5 0 014.95 0L116 15.05l13.525-13.525a3.5 3.5 0 014.95 4.95l-16 16a3.5 3.5 0 01-4.95 0L100 8.95 86.475 22.475a3.5 3.5 0 01-4.95 0L68 8.95 54.475 22.475a3.5 3.5 0 01-4.95 0L36 8.95 22.475 22.475a3.5 3.5 0 01-4.95 0l-16-16a3.5 3.5 0 010-4.95z">
+                                        </path>
+                                    </svg> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Erat ut facilisis rutrum donec tristique mauris est ac nunc. Eget nec, lorem mi libero accumsan....
+                                </p>
+                                <div class="item__meta">
+                                    <div class="item-profile__image hover--underline">
+                                        <a href="#" class="global__image">
+                                            <img src="https://okiro.fueko.net/content/images/size/w120/2020/11/prince-akachi-J1OScm_uHUQ-unsplash.jpg" loading="lazy" alt="Victoria West">
+                                        </a>
+                                        <a href="#" class="global__image hover--underline">
+                                            <img src="https://okiro.fueko.net/content/images/size/w120/2020/11/laura-chouette-1z--Cu8-wXU-unsplash.jpg" loading="lazy" alt="Lauren Langford">
+                                        </a>
+                                    </div>
+                                    <div class="item-authors hover--underline">
+                                        <a href="#">Victoria West</a>, <a href="#">Lauren Langford</a>
+                                        <div class="item-time">
+                                            <time datetime="2020-09-30">September 30, 2020</time> ∙ 3 minutes read
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+
+                    <div>
+                        <article class="item background--pool">
+                            <a href="#" class="global__link"></a>
+                            <div class="item__container">
+                                <div class="item__image global__image">
+                                    <img src="https://okiro.fueko.net/content/images/size/w600/2020/11/photo-1557800636-894a64c1696f.jpeg" loading="lazy" alt="Don’t be afraid">
+                                </div>
+                                <div class="item__content">
+                                    <h2 class="item__title"><a href="#">Don’t be afraid</a></h2>
+                                    <div class="item__meta hover--underline global--pointer">
+                                        <div><a href="#">Megan Anderson</a>, <a href="#">Lauren Langford</a></div>
+                                    </div>
+                                </div>
+                                <div class="item__tags global__tags global--pointer">
+                                    <a href="#">Story</a>
+                                </div>
+                            </div>
+                        </article>
+                        <article class="item background--aqua">
+                            <a href="#" class="global__link"></a>
+                            <div class="item__container">
+                                <div class="item__image global__image">
+                                    <img src="https://okiro.fueko.net/content/images/size/w600/2020/11/photo-1533848052694-c716c6530f9c.jpeg" loading="lazy" alt="Anyone can hold the helm when the sea is calm">
+                                </div>
+                                <div class="item__content">
+                                    <h2 class="item__title"><a href="#">Anyone can hold the helm when the sea is
+                                            calm</a></h2>
+                                    <div class="item__meta  global--pointer hover--underline">
+                                        <div>
+                                            <a href="#">Megan Anderson</a>, <a href="#">Charles Barrett</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item__tags global__tags global--pointer">
+                                    <span class="global-members-label">
+                                        <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M5.445 9.333V6.667C5.445 2.985 8.38 0 12 0c3.62 0 6.554 2.985 6.554 6.667v2.666s2.622 1.214 2.622 6c0 4.787-3.815 8.667-8.52 8.667h-1.312c-4.706 0-8.52-3.88-8.52-8.667 0-4.786 2.621-6 2.621-6zm10.487 0V6.667c0-2.21-1.76-4-3.932-4-2.172 0-3.933 1.79-3.933 4v2.666h7.865z">
+                                            </path>
+                                        </svg></span>
+                                    <a href="#">Home</a>
+                                </div>
+                            </div>
+                        </article>
+                        <article class="item background--rose">
+                            <a href="#" class="global__link"></a>
+                            <div class="item__container">
+                                <div class="item__image global__image">
+                                    <img src="https://okiro.fueko.net/content/images/size/w600/2020/11/photo-1582020738577-2e7a48043902.jpeg" loading="lazy" alt="You have to fight to reach your dream">
+                                </div>
+                                <div class="item__content">
+                                    <h2 class="item__title"><a href="#">You have to fight to reach your dream</a>
+                                    </h2>
+                                    <div class="item__meta  global--pointer hover--underline">
+                                        <div><a href="#">Megan Anderson</a></div>
+                                    </div>
+                                </div>
+                                <div class="item__tags global__tags global--pointer">
+                                    <a href="#">Product</a>
+                                </div>
+                            </div>
+                        </article>
+                        <article class="item background--peach">
+                            <a href="#" class="global__link"></a>
+                            <div class="item__container">
+                                <div class="item__image global__image">
+                                    <img src="https://okiro.fueko.net/content/images/size/w600/2020/11/photo-1580636521086-7b0c742dd567.jpeg" loading="lazy" alt="Cuisine is a mirror, reflecting the culture">
+                                </div>
+                                <div class="item__content">
+                                    <h2 class="item__title"><a href="#">Cuisine is a mirror, reflecting the culture</a>
+                                    </h2>
+                                    <div class="item__meta  global--pointer hover--underline">
+                                        <div><a href="#">Victoria West</a>, <a href="#">Patricia Jenkins</a></div>
+                                    </div>
+                                </div>
+                                <div class="item__tags global__tags global--pointer">
+                                    <a href="#">Creative</a>
+                                </div>
+                            </div>
+                        </article>
+                        <article class="item background--sand">
+                            <a href="#" class="global__link"></a>
+                            <div class="item__container">
+                                <div class="item__image global__image">
+                                    <img src="https://okiro.fueko.net/content/images/size/w600/2020/11/photo-1579618385552-046edd29f899.jpeg" loading="lazy" alt="Being unique is better than being perfect">
+                                </div>
+                                <div class="item__content">
+                                    <h2 class="item__title">
+                                        <a href="#">Being unique is better than being perfect</a>
+                                    </h2>
+                                    <div class="item__meta  global--pointer hover--underline">
+                                        <div><a href="#">Megan Anderson</a></div>
+                                    </div>
+                                </div>
+                                <div class="item__tags global__tags global--pointer">
+                                    <a href="#">Home</a>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </section>
+
+            <section class="pagination">
+                <a href="" id="next-page" style="display: none;"></a>
+                <button class="global__button">Load more</button>
+            </section>
+
+            <section class="featured global__sections section-4__items">
+                <h2 class="global__label">
+                    Story
+                    <svg role="img" viewBox="0 0 136 24" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M1.525 1.525a3.5 3.5 0 014.95 0L20 15.05 33.525 1.525a3.5 3.5 0 014.95 0L52 15.05 65.525 1.525a3.5 3.5 0 014.95 0L84 15.05 97.525 1.525a3.5 3.5 0 014.95 0L116 15.05l13.525-13.525a3.5 3.5 0 014.95 4.95l-16 16a3.5 3.5 0 01-4.95 0L100 8.95 86.475 22.475a3.5 3.5 0 01-4.95 0L68 8.95 54.475 22.475a3.5 3.5 0 01-4.95 0L36 8.95 22.475 22.475a3.5 3.5 0 01-4.95 0l-16-16a3.5 3.5 0 010-4.95z">
+                        </path>
+                    </svg>
+                </h2>
+                <article class="item background--pool">
+                    <a href="#" class="global__link"></a>
+                    <div class="global__image item__image">
+                        <img src="https://okiro.fueko.net/content/images/size/w600/2020/11/photo-1557800636-894a64c1696f.jpeg" loading="lazy" alt="Don’t be afraid">
+                    </div>
+                    <div class="global__sections--content">
+                        <h3><a href="#">Don’t be afraid</a></h3>
+                        <div class="global__sections--meta global--pointer hover--underline">
+                            <a href="#">Megan Anderson</a>, <a href="#">Lauren Langford</a>
+                        </div>
+                    </div>
+                </article>
+                <article class="item background--aqua">
+                    <a href="#" class="global__link"></a>
+                    <div class="global__image item__image">
+                        <img src="https://okiro.fueko.net/content/images/size/w600/2020/11/photo-1533848052694-c716c6530f9c.jpeg" loading="lazy" alt="You have to fight to reach your dream">
+                    </div>
+                    <div class="global__sections--content">
+                        <h3><a href="#">Anyone can hold the helm when the sea is calm</a></h3>
+                        <div class="global__sections--meta global--pointer hover--underline">
+                            <a href="#">Megan Anderson</a>, <a href="#">Charles Barrett</a>
+                        </div>
+                    </div>
+                </article>
+                <article class="item background--rose">
+                    <a href="#" class="global__link"></a>
+                    <div class="global__image item__image">
+                        <img src="https://okiro.fueko.net/content/images/size/w600/2020/11/photo-1580636521086-7b0c742dd567.jpeg" loading="lazy" alt="I always loved aesthetics">
+                    </div>
+                    <div class="global__sections--content">
+                        <h3><a href="/i-always-loved-aesthetics/">Cuisine is a mirror, reflecting the culture</a></h3>
+                        <div class="global__sections--meta global--pointer hover--underline">
+                            <a href="#">Victoria West</a>, <a href="#">Patricia Jenkins</a>
+                        </div>
+                    </div>
+                </article>
+                <article class="item background--sand">
+                    <a href="#" class="global__link"></a>
+                    <div class="global__image item__image">
+                        <img src="https://okiro.fueko.net/content/images/size/w300/2020/11/photo-1530653333484-d02d0faff9bf.jpeg" loading="lazy" alt="Creating deluxe drink is like playing a sport">
+                    </div>
+                    <div class="global__sections--content">
+                        <h3><a href="#">I always loved aesthetics</a></h3>
+                        <div class="global__sections--meta global--pointer hover--underline">
+                            <a href="#">Hannah Weastell</a>, <a href="#">Victoria West</a>
+                        </div>
+                    </div>
+                </article>
+            </section>
+
+
+            <section class="subscribe">
+                <div class="subscribe__wrap">
+                    <h3>Subscribe to new posts</h3>
+                    <form data-members-form="subscribe" class="subscribe__form">
+                        <input data-members-email="" type="email" placeholder="Your email address" aria-label="Your email address" required="">
+                        <button class="global__button" type="submit">Subscribe</button>
+                    </form>
+                </div>
+            </section>
+        </main>
+
+        <!-- -----------------------X------------------------ END MAIN -----------------X-------------- -->
+        <!-- ------------------------------------------------ START FOOTER -------------------------------- -->
+
+        <footer class="footer__section">
+            <div class="footer__copyright">
+                <a href="#">Okiro</a> © 2021. All Right Reserved. Published with <a href="https://ghost.org">Ghost</a>.
+            </div>
+            <div class="footer__wrap">
+                <div class="footer__nav">
+                    <div class="footer__nav--column">
+                        <small>About</small>
+                        <ul>
+                            <li><a href="#">Features</a></li>
+                            <li><a href="#">Style Guide</a></li>
+                            <li><a href="#">Contact</a></li>
+                            <li><a href="#">Get Theme</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="footer__nav--column">
+                        <small>Features</small>
+                        <ul>
+                            <li><a href="https://okiro.fueko.net/demo-account-paid-member/">Account</a></li>
+                            <li><a href="https://okiro.fueko.net/membership/">Membership</a></li>
+                            <li><a href="https://okiro.fueko.net/signin/">Sign in</a></li>
+                            <li><a href="https://okiro.fueko.net/signup/">Sign up</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="footer__nav--column">
+                        <small>Support</small>
+                        <ul>
+                            <li><a href="https://okiro.fueko.net/authors/">Authors</a></li>
+                            <li><a href="https://okiro.fueko.net/tags/">Tags</a></li>
+                            <li><a href="https://okiro-dark.fueko.net/">Dark version</a></li>
+                            <li><a href="https://okiro.fueko.net/404/">404</a></li>
+                        </ul>
+                    </div>
+
+                </div>
+                <div class="footer__data">
+                    <div class="footer__logo">
+                        <a href="https://okiro.fueko.net" class="footer__image"><img src="https://okiro.fueko.net/content/images/2020/11/okiro.svg" alt="Okiro"></a>
+                    </div>
+                    <p class="footer__description">A minimal, functional theme for running a paid-membership publication on Ghost.
+                    </p>
+                    <div class="footer__icons">
+                        <a href="#" aria-label="link Facebook">
+                            <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M23.9981 11.9991C23.9981 5.37216 18.626 0 11.9991 0C5.37216 0 0 5.37216 0 11.9991C0 17.9882 4.38789 22.9522 10.1242 23.8524V15.4676H7.07758V11.9991H10.1242V9.35553C10.1242 6.34826 11.9156 4.68714 14.6564 4.68714C15.9692 4.68714 17.3424 4.92149 17.3424 4.92149V7.87439H15.8294C14.3388 7.87439 13.8739 8.79933 13.8739 9.74824V11.9991H17.2018L16.6698 15.4676H13.8739V23.8524C19.6103 22.9522 23.9981 17.9882 23.9981 11.9991Z">
+                                </path>
+                            </svg>
+                        </a>
+                        <a href="#" aria-label="link Twitter">
+                            <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M23.954 4.569c-.885.389-1.83.654-2.825.775 1.014-.611 1.794-1.574 2.163-2.723-.951.555-2.005.959-3.127 1.184-.896-.959-2.173-1.559-3.591-1.559-2.717 0-4.92 2.203-4.92 4.917 0 .39.045.765.127 1.124C7.691 8.094 4.066 6.13 1.64 3.161c-.427.722-.666 1.561-.666 2.475 0 1.71.87 3.213 2.188 4.096-.807-.026-1.566-.248-2.228-.616v.061c0 2.385 1.693 4.374 3.946 4.827-.413.111-.849.171-1.296.171-.314 0-.615-.03-.916-.086.631 1.953 2.445 3.377 4.604 3.417-1.68 1.319-3.809 2.105-6.102 2.105-.39 0-.779-.023-1.17-.067 2.189 1.394 4.768 2.209 7.557 2.209 9.054 0 13.999-7.496 13.999-13.986 0-.209 0-.42-.015-.63.961-.689 1.8-1.56 2.46-2.548l-.047-.02z">
+                                </path>
+                            </svg>
+                        </a>
+                        <a href="#" aria-label="link Meetup">
+                            <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M23.978 20.238c-.304-1.931-3.874-.444-4.096-2.559-.313-2.998 4.15-9.459 3.797-11.972-.313-2.255-1.841-2.73-3.165-2.756-1.284-.02-1.623.182-2.058.435-.253.146-.612.435-1.112-.041-.334-.318-.557-.536-.905-.819-.182-.142-.466-.324-.945-.395-.476-.071-1.098 0-1.492.167-.395.172-.702.466-1.026.749-.323.283-1.147 1.198-1.911.859-.335-.145-1.458-.706-2.272-1.055-1.563-.677-3.822.42-4.636 1.866C2.944 6.866.557 15.32.193 16.432c-.809 2.502 1.032 4.54 3.509 4.424 1.052-.051 1.75-.43 2.412-1.638.384-.693 3.979-10.087 4.248-10.543.197-.323.844-.753 1.39-.475.551.283.662.869.581 1.421-.136.895-2.669 6.629-2.771 7.275-.162 1.103.359 1.714 1.507 1.774.784.041 1.567-.237 2.184-1.41.349-.652 4.349-8.666 4.702-9.202.39-.586.703-.779 1.103-.758.309.015.799.096.678 1.016-.122.905-3.343 6.78-3.676 8.221-.456 1.927.602 3.874 2.341 4.728 1.112.546 5.97 1.476 5.577-1.027z">
+                                </path>
+                            </svg>
+                        </a>
+                        <a href="#" aria-label="link YouTube">
+                            <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M23.495 6.205a3.007 3.007 0 0 0-2.088-2.088c-1.87-.501-9.396-.501-9.396-.501s-7.507-.01-9.396.501A3.007 3.007 0 0 0 .527 6.205a31.247 31.247 0 0 0-.522 5.805 31.247 31.247 0 0 0 .522 5.783 3.007 3.007 0 0 0 2.088 2.088c1.868.502 9.396.502 9.396.502s7.506 0 9.396-.502a3.007 3.007 0 0 0 2.088-2.088 31.247 31.247 0 0 0 .5-5.783 31.247 31.247 0 0 0-.5-5.805zM9.609 15.601V8.408l6.264 3.602z">
+                                </path>
+                            </svg>
+                        </a>
+
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- ------------------------------------------------- END FOOTER -------------------------------- -->
+    </div>
+
+
+
+    <script src="./assets/js/main.js"></script>
+</body>
+
+</html>
